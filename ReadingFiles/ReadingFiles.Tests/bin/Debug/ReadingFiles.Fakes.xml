@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ReadingFiles.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:ReadingFiles.Fakes.ShimFileReader">
+            <summary>Shim type of ReadingFiles.FileReader</summary>
+        </member>
+        <member name="M:ReadingFiles.Fakes.ShimFileReader.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ReadingFiles.Fakes.ShimFileReader.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ReadingFiles.Fakes.ShimFileReader.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ReadingFiles.Fakes.ShimFileReader.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ReadingFiles.Fakes.ShimFileReader.IsFileEmptyIFileSystemString">
+            <summary>Sets the mole of FileReader.IsFileEmpty(IFileSystem fileSystem, String fileName)</summary>
+        </member>
+        <member name="T:ReadingFiles.Fakes.ShimFileSystem">
+            <summary>Shim type of ReadingFiles.FileSystem</summary>
+        </member>
+        <member name="M:ReadingFiles.Fakes.ShimFileSystem.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ReadingFiles.Fakes.ShimFileSystem.#ctor(ReadingFiles.FileSystem)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ReadingFiles.Fakes.ShimFileSystem.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ReadingFiles.Fakes.ShimFileSystem.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ReadingFiles.Fakes.ShimFileSystem.Bind(ReadingFiles.IFileSystem)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ReadingFiles.Fakes.ShimFileSystem.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ReadingFiles.Fakes.ShimFileSystem.Constructor">
+            <summary>Sets the mole of FileSystem.FileSystem()</summary>
+        </member>
+        <member name="P:ReadingFiles.Fakes.ShimFileSystem.ReadAllTextString">
+            <summary>Sets the mole of FileSystem.ReadAllText(String fileName)</summary>
+        </member>
+        <member name="T:ReadingFiles.Fakes.ShimFileSystem.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ReadingFiles.Fakes.ShimFileSystem.AllInstances.ReadAllTextString">
+            <summary>Sets the mole of FileSystem.ReadAllText(String fileName)</summary>
+        </member>
+        <member name="T:ReadingFiles.Fakes.StubFileSystem">
+            <summary>Stub type of ReadingFiles.FileSystem</summary>
+        </member>
+        <member name="M:ReadingFiles.Fakes.StubFileSystem.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ReadingFiles.Fakes.StubFileSystem.InitializeStub">
+            <summary>Initializes a new instance of type StubFileSystem</summary>
+        </member>
+        <member name="P:ReadingFiles.Fakes.StubFileSystem.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ReadingFiles.Fakes.StubFileSystem.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:ReadingFiles.Fakes.StubIFileSystem">
+            <summary>Stub type of ReadingFiles.IFileSystem</summary>
+        </member>
+        <member name="M:ReadingFiles.Fakes.StubIFileSystem.#ctor">
+            <summary>Initializes a new instance of type StubIFileSystem</summary>
+        </member>
+        <member name="F:ReadingFiles.Fakes.StubIFileSystem.ReadAllTextString">
+            <summary>Sets the stub of IFileSystem.ReadAllText(String fileName)</summary>
+        </member>
+        <member name="M:ReadingFiles.Fakes.StubIFileSystem.rf::ReadingFiles#IFileSystem#ReadAllText(System.String)">
+            <summary>Sets the stub of IFileSystem.ReadAllText(String fileName)</summary>
+        </member>
+    </members>
+</doc>

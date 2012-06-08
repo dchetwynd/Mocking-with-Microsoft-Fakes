@@ -1,0 +1,5 @@
+c:\users\myob\documents\visual studio 11\Projects\WarehouseOrdering\WarehouseOrdering\obj\Debug\WarehouseOrdering.csprojResolveAssemblyReference.cache
+c:\users\myob\documents\visual studio 11\Projects\WarehouseOrdering\WarehouseOrdering\bin\Debug\WarehouseOrdering.dll
+c:\users\myob\documents\visual studio 11\Projects\WarehouseOrdering\WarehouseOrdering\bin\Debug\WarehouseOrdering.pdb
+c:\users\myob\documents\visual studio 11\Projects\WarehouseOrdering\WarehouseOrdering\obj\Debug\WarehouseOrdering.dll
+c:\users\myob\documents\visual studio 11\Projects\WarehouseOrdering\WarehouseOrdering\obj\Debug\WarehouseOrdering.pdb

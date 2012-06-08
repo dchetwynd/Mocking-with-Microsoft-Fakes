@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WarehouseOrdering.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:WarehouseOrdering.Fakes.ShimOrder">
+            <summary>Shim type of WarehouseOrdering.Order</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.ShimOrder.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.ShimOrder.#ctor(WarehouseOrdering.Order)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.ShimOrder.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.ShimOrder.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimOrder.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimOrder.ConstructorStringInt32">
+            <summary>Sets the mole of Order.Order(String itemName, Int32 itemQuantity)</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimOrder.FillIWarehouse">
+            <summary>Sets the mole of Order.Fill(IWarehouse warehouse)</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimOrder.IsFilledGet">
+            <summary>Sets the mole of Order.get_IsFilled()</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimOrder.IsFilledSetBoolean">
+            <summary>Sets the mole of Order.set_IsFilled(Boolean value)</summary>
+        </member>
+        <member name="T:WarehouseOrdering.Fakes.ShimOrder.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimOrder.AllInstances.FillIWarehouse">
+            <summary>Sets the mole of Order.Fill(IWarehouse warehouse)</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimOrder.AllInstances.IsFilledGet">
+            <summary>Sets the mole of Order.get_IsFilled()</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimOrder.AllInstances.IsFilledSetBoolean">
+            <summary>Sets the mole of Order.set_IsFilled(Boolean value)</summary>
+        </member>
+        <member name="T:WarehouseOrdering.Fakes.ShimWarehouse">
+            <summary>Shim type of WarehouseOrdering.Warehouse</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.ShimWarehouse.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.ShimWarehouse.#ctor(WarehouseOrdering.Warehouse)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.ShimWarehouse.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.ShimWarehouse.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.ShimWarehouse.Bind(WarehouseOrdering.IWarehouse)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimWarehouse.AddStringInt32">
+            <summary>Sets the mole of Warehouse.Add(String itemName, Int32 quantity)</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimWarehouse.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimWarehouse.Constructor">
+            <summary>Sets the mole of Warehouse.Warehouse()</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimWarehouse.GetInventoryString">
+            <summary>Sets the mole of Warehouse.GetInventory(String itemName)</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimWarehouse.HasInventoryStringInt32">
+            <summary>Sets the mole of Warehouse.HasInventory(String itemName, Int32 quantity)</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimWarehouse.RemoveStringInt32">
+            <summary>Sets the mole of Warehouse.Remove(String itemName, Int32 quantity)</summary>
+        </member>
+        <member name="T:WarehouseOrdering.Fakes.ShimWarehouse.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimWarehouse.AllInstances.AddStringInt32">
+            <summary>Sets the mole of Warehouse.Add(String itemName, Int32 quantity)</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimWarehouse.AllInstances.GetInventoryString">
+            <summary>Sets the mole of Warehouse.GetInventory(String itemName)</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimWarehouse.AllInstances.HasInventoryStringInt32">
+            <summary>Sets the mole of Warehouse.HasInventory(String itemName, Int32 quantity)</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.ShimWarehouse.AllInstances.RemoveStringInt32">
+            <summary>Sets the mole of Warehouse.Remove(String itemName, Int32 quantity)</summary>
+        </member>
+        <member name="T:WarehouseOrdering.Fakes.StubIWarehouse">
+            <summary>Stub type of WarehouseOrdering.IWarehouse</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.StubIWarehouse.#ctor">
+            <summary>Initializes a new instance of type StubIWarehouse</summary>
+        </member>
+        <member name="F:WarehouseOrdering.Fakes.StubIWarehouse.AddStringInt32">
+            <summary>Sets the stub of IWarehouse.Add(String itemName, Int32 quantity)</summary>
+        </member>
+        <member name="F:WarehouseOrdering.Fakes.StubIWarehouse.GetInventoryString">
+            <summary>Sets the stub of IWarehouse.GetInventory(String itemName)</summary>
+        </member>
+        <member name="F:WarehouseOrdering.Fakes.StubIWarehouse.HasInventoryStringInt32">
+            <summary>Sets the stub of IWarehouse.HasInventory(String itemName, Int32 quantity)</summary>
+        </member>
+        <member name="F:WarehouseOrdering.Fakes.StubIWarehouse.RemoveStringInt32">
+            <summary>Sets the stub of IWarehouse.Remove(String itemName, Int32 quantity)</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.StubIWarehouse.wo::WarehouseOrdering#IWarehouse#Add(System.String,System.Int32)">
+            <summary>Sets the stub of IWarehouse.Add(String itemName, Int32 quantity)</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.StubIWarehouse.wo::WarehouseOrdering#IWarehouse#GetInventory(System.String)">
+            <summary>Sets the stub of IWarehouse.GetInventory(String itemName)</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.StubIWarehouse.wo::WarehouseOrdering#IWarehouse#HasInventory(System.String,System.Int32)">
+            <summary>Sets the stub of IWarehouse.HasInventory(String itemName, Int32 quantity)</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.StubIWarehouse.wo::WarehouseOrdering#IWarehouse#Remove(System.String,System.Int32)">
+            <summary>Sets the stub of IWarehouse.Remove(String itemName, Int32 quantity)</summary>
+        </member>
+        <member name="T:WarehouseOrdering.Fakes.StubOrder">
+            <summary>Stub type of WarehouseOrdering.Order</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.StubOrder.#ctor(System.String,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.StubOrder.InitializeStub">
+            <summary>Initializes a new instance of type StubOrder</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.StubOrder.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.StubOrder.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:WarehouseOrdering.Fakes.StubWarehouse">
+            <summary>Stub type of WarehouseOrdering.Warehouse</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.StubWarehouse.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:WarehouseOrdering.Fakes.StubWarehouse.InitializeStub">
+            <summary>Initializes a new instance of type StubWarehouse</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.StubWarehouse.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:WarehouseOrdering.Fakes.StubWarehouse.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>

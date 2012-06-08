@@ -1,0 +1,9 @@
+c:\users\myob\documents\visual studio 11\Projects\WarehouseOrdering\WarehouseOrdering.Tests\obj\Debug\Fakes\wo\b\WarehouseOrdering.Fakes.xml
+c:\users\myob\documents\visual studio 11\Projects\WarehouseOrdering\WarehouseOrdering.Tests\obj\Debug\Fakes\wo\b\WarehouseOrdering.Fakes.dll
+c:\users\myob\documents\visual studio 11\Projects\WarehouseOrdering\WarehouseOrdering.Tests\obj\Debug\Fakes\wo\b\WarehouseOrdering.Fakes.pdb
+c:\users\myob\documents\visual studio 11\Projects\WarehouseOrdering\WarehouseOrdering.Tests\obj\Debug\Fakes\wo\b\Microsoft.QualityTools.Testing.Fakes.dll
+c:\users\myob\documents\visual studio 11\Projects\WarehouseOrdering\WarehouseOrdering.Tests\obj\Debug\Fakes\wo\b\WarehouseOrdering.dll
+c:\users\myob\documents\visual studio 11\Projects\WarehouseOrdering\WarehouseOrdering.Tests\obj\Debug\Fakes\wo\b\WarehouseOrdering.pdb
+c:\users\myob\documents\visual studio 11\Projects\WarehouseOrdering\WarehouseOrdering.Tests\obj\Debug\Fakes\wo\o\f.csprojResolveAssemblyReference.cache
+c:\users\myob\documents\visual studio 11\Projects\WarehouseOrdering\WarehouseOrdering.Tests\obj\Debug\Fakes\wo\o\WarehouseOrdering.Fakes.dll
+c:\users\myob\documents\visual studio 11\Projects\WarehouseOrdering\WarehouseOrdering.Tests\obj\Debug\Fakes\wo\o\WarehouseOrdering.Fakes.pdb

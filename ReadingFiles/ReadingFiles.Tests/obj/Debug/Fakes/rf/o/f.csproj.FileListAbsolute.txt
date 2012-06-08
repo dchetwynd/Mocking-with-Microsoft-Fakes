@@ -1,0 +1,9 @@
+c:\users\myob\documents\visual studio 11\Projects\ReadingFiles\ReadingFiles.Tests\obj\Debug\Fakes\rf\b\ReadingFiles.Fakes.xml
+c:\users\myob\documents\visual studio 11\Projects\ReadingFiles\ReadingFiles.Tests\obj\Debug\Fakes\rf\b\ReadingFiles.Fakes.dll
+c:\users\myob\documents\visual studio 11\Projects\ReadingFiles\ReadingFiles.Tests\obj\Debug\Fakes\rf\b\ReadingFiles.Fakes.pdb
+c:\users\myob\documents\visual studio 11\Projects\ReadingFiles\ReadingFiles.Tests\obj\Debug\Fakes\rf\b\Microsoft.QualityTools.Testing.Fakes.dll
+c:\users\myob\documents\visual studio 11\Projects\ReadingFiles\ReadingFiles.Tests\obj\Debug\Fakes\rf\b\ReadingFiles.dll
+c:\users\myob\documents\visual studio 11\Projects\ReadingFiles\ReadingFiles.Tests\obj\Debug\Fakes\rf\b\ReadingFiles.pdb
+c:\users\myob\documents\visual studio 11\Projects\ReadingFiles\ReadingFiles.Tests\obj\Debug\Fakes\rf\o\f.csprojResolveAssemblyReference.cache
+c:\users\myob\documents\visual studio 11\Projects\ReadingFiles\ReadingFiles.Tests\obj\Debug\Fakes\rf\o\ReadingFiles.Fakes.dll
+c:\users\myob\documents\visual studio 11\Projects\ReadingFiles\ReadingFiles.Tests\obj\Debug\Fakes\rf\o\ReadingFiles.Fakes.pdb

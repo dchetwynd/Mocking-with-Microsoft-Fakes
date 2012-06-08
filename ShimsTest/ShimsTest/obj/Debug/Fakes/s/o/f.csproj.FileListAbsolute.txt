@@ -1,0 +1,7 @@
+c:\users\myob\documents\visual studio 11\Projects\ShimsTest\ShimsTest\obj\Debug\Fakes\s\b\System.4.0.0.0.Fakes.xml
+c:\users\myob\documents\visual studio 11\Projects\ShimsTest\ShimsTest\obj\Debug\Fakes\s\b\System.4.0.0.0.Fakes.dll
+c:\users\myob\documents\visual studio 11\Projects\ShimsTest\ShimsTest\obj\Debug\Fakes\s\b\System.4.0.0.0.Fakes.pdb
+c:\users\myob\documents\visual studio 11\Projects\ShimsTest\ShimsTest\obj\Debug\Fakes\s\b\Microsoft.QualityTools.Testing.Fakes.dll
+c:\users\myob\documents\visual studio 11\Projects\ShimsTest\ShimsTest\obj\Debug\Fakes\s\o\f.csprojResolveAssemblyReference.cache
+c:\users\myob\documents\visual studio 11\Projects\ShimsTest\ShimsTest\obj\Debug\Fakes\s\o\System.4.0.0.0.Fakes.dll
+c:\users\myob\documents\visual studio 11\Projects\ShimsTest\ShimsTest\obj\Debug\Fakes\s\o\System.4.0.0.0.Fakes.pdb
